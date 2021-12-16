@@ -192,7 +192,7 @@ body {
 
   #dashboard-container {
     display: grid;
-    grid-template-rows: 200px 200px;
+    grid-template-rows: 200px 200px 200px 200px;
     grid-template-columns: 300px;
     gap: 1rem;
     position: relative;
@@ -205,6 +205,31 @@ body {
     width: 100%;
     height: 12.5rem;
     border-radius: .3rem;
+  }
+
+  .card2 {
+    background-color: hsl(228, 28%, 20%);
+    width: 100%;
+    height: 12.5rem;
+    border-radius: .3rem;
+    position: relative;
+    top: 1rem;
+  }
+  .card3 {
+    background-color: hsl(228, 28%, 20%);
+    width: 100%;
+    height: 12.5rem;
+    border-radius: .3rem;
+    position: relative;
+    top: 2rem;
+  }
+  .card4 {
+    background-color: hsl(228, 28%, 20%);
+    width: 100%;
+    height: 12.5rem;
+    border-radius: .3rem;
+    position: relative;
+    top: 3rem;
   }
 
 
