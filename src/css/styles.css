@@ -235,7 +235,7 @@ body {
     height: 12.5rem;
     border-radius: .3rem;
     position: relative;
-    top: 1rem;
+    top: 1.5rem;
   }
   .card3 {
     background-color: hsl(228, 28%, 20%);
@@ -243,7 +243,7 @@ body {
     height: 12.5rem;
     border-radius: .3rem;
     position: relative;
-    top: 2rem;
+    top: 3rem;
   }
   .card4 {
     background-color: hsl(228, 28%, 20%);
@@ -251,7 +251,7 @@ body {
     height: 12.5rem;
     border-radius: .3rem;
     position: relative;
-    top: 3rem;
+    top: 4.5rem;
   }
 
   /* === CARD1 === */
