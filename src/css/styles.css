@@ -254,6 +254,8 @@ body {
     top: 3rem;
   }
 
+  /* === CARD1 === */
+
   .icon-flex {
     display: flex;
     flex-direction: row;
@@ -302,6 +304,69 @@ body {
     height: .3rem;
     align-self: center;
   }
+
+  /* === CARD 2 === */
+
+  #color-line-2 {
+    width: 100%;
+    height: auto;
+    position: relative;
+    bottom: .5rem;
+  }
+
+  #color-line-2 > hr{
+    height: 4px;
+    background-color: hsl(203, 89%, 53%);
+    border: none;
+    border-radius: 10rem 10rem 10rem 10rem;
+  }
+
+  .statistics-data {
+    color: hsl(163, 72%, 41%);
+    font-weight: bold;
+  }
+
+  /* === CARD 3 === */
+
+  #color-line-3 {
+    width: 100%;
+    height: auto;
+    position: relative;
+    bottom: .5rem;
+  }
+
+  #color-line-3 > hr{
+    height: 4px;
+    background: linear-gradient(to right,hsl(37, 97%, 70%), hsl(329, 70%, 58%));
+    border: none;
+    border-radius: 10rem 10rem 10rem 10rem;
+  }
+
+  .statistics-data {
+    color: hsl(163, 72%, 41%);
+  }
+
+  /* === CARD 4 === */
+
+  #color-line-4 {
+    width: 100%;
+    height: auto;
+    position: relative;
+    bottom: .5rem;
+  }
+
+  #color-line-4 > hr{
+    height: 4px;
+    background-color: hsl(348, 97%, 39%);
+    border: none;
+    border-radius: 10rem 10rem 10rem 10rem;
+  }
+
+  .statistics-data-red {
+    color: hsl(356, 69%, 56%);
+  }
+
+
 
 
 
