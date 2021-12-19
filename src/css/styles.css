@@ -259,7 +259,6 @@ body {
     flex-direction: row;
     gap: .5rem;
     justify-content: center;
-    margin-top: 1rem;
   }
 
   .image-sizing {
@@ -272,22 +271,20 @@ body {
     color: hsl(228, 34%, 66%);
   }
 
-  .flex-items h1, p {
+  .follower-number {
     margin: 0;
-  }
-
-  .flex-items h1 {
     font-size: 50px;
   }
 
-  .flex-items p {
+  .follower-text {
     color: hsl(228, 34%, 66%);
     font-size: 12px;
     letter-spacing: 5px;
+    margin: 0;
   }
 
   .data {
-    margin-top: 1rem;
+    margin-top: .5rem;
   }
 
   .icon-flex-2 {
@@ -295,14 +292,17 @@ body {
     flex-direction: row;
     gap: .3rem;
     justify-content: center;
-    margin-top: 1rem;
+    margin-bottom: 0;
+    margin-top: .4rem;
+    font-size: 12px;
   }
 
   .image-sizing-statistics {
-    width: .5rem;
-    height: .5rem;
+    width: .4rem;
+    height: .3rem;
     align-self: center;
   }
+
 
 
 
