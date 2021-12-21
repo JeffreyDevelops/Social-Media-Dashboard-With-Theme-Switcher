@@ -366,6 +366,16 @@ body {
     color: hsl(356, 69%, 56%);
   }
 
+  /* === OVERVIEW === */
+
+  #overview-header {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    right: 3.7rem;
+  }
+
+
 
 
 
