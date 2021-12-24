@@ -411,11 +411,13 @@ body {
 }
 
 .image-sizing-overview {
- padding-left: 9.5rem;
+ position: relative;
+ left: 9rem;
 }
 
 .image-sizing-overview-data {
-  padding-left: 12.5rem;
+  position: relative;
+  left: 10.8rem;
  }
 
  .overview-card-1-bottom {
@@ -430,14 +432,9 @@ body {
   font-size: 30px;
  }
 
- .overview-card-1-bottom img {
-   position: relative;
-   right: 1.3rem;
- }
-
  .overview-card-1-bottom p {
    position: relative;
-   right: 1rem;
+   left: 11rem;
    color: hsl(163, 72%, 41%);
  }
 
