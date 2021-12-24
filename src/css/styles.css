@@ -376,6 +376,73 @@ body {
   }
 
 
+  #overview-grid {
+    display: grid;
+    grid-template-rows: 130px 130px 130px 130px 130px 130px 130px 130px;
+    grid-template-columns: 300px;
+    gap: 1rem;
+    position: relative;
+    justify-content: center;
+  }
+
+  /* === OVERVIEW CARD 1 === */
+
+  .flex-header-1 {
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .overview-card-bg {
+    background-color: hsl(228, 28%, 20%);
+    width: 100%;
+    height: 8rem;
+    border-radius: .3rem;
+  }
+
+.overview-card-1 {
+  flex-direction: row;
+  justify-content: flex-start;
+  padding-left: 1.5rem;
+  padding-top: 1rem;
+}
+
+.overview-card-1 > p {
+  color: hsl(228, 34%, 66%);
+}
+
+.image-sizing-overview {
+ padding-left: 9.5rem;
+}
+
+.image-sizing-overview-data {
+  padding-left: 12.5rem;
+ }
+
+ .overview-card-1-bottom {
+  flex-direction: row;
+  justify-content: flex-start;
+  padding-left: 1.5rem;
+  position: relative;
+  bottom: .7rem;
+ }
+
+ .overview-card-1-bottom > h1 {
+  font-size: 30px;
+ }
+
+ .overview-card-1-bottom img {
+   position: relative;
+   right: 1.3rem;
+ }
+
+ .overview-card-1-bottom p {
+   position: relative;
+   right: 1rem;
+   color: hsl(163, 72%, 41%);
+ }
+
+
+
 
 
 
