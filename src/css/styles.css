@@ -69,6 +69,13 @@ body {
   flex-direction: column;
 }
 
+.data-color-red {
+  color: hsl(356, 69%, 56%)!important;
+}
+
+.data-color-green{
+color: hsl(163, 72%, 41%)!important;
+}
 
 
 /* === SOCIAL-HEADER-AREA === */
@@ -437,6 +444,175 @@ body {
    left: 11rem;
    color: hsl(163, 72%, 41%);
  }
+
+ /* === OVERVIEW CARD 2 */
+
+.overview-card-2 {
+  flex-direction: row;
+  justify-content: flex-start;
+  padding-left: 1.5rem;
+  padding-top: 1rem;
+}
+
+.overview-card-2 > p {
+  color: hsl(228, 34%, 66%);
+}
+
+.overview-card-2-bottom > h1 {
+  font-size: 30px;
+ }
+
+ .overview-card-2-bottom p {
+  position: relative;
+  left: 11rem;
+  color: hsl(356, 69%, 56%);
+}
+
+.image-sizing-overview-2 {
+  position: relative;
+  left: 12rem;
+ }
+
+
+  /* === OVERVIEW CARD 3 */
+
+.overview-card-3 {
+  flex-direction: row;
+  justify-content: flex-start;
+  padding-left: 1.5rem;
+  padding-top: 1rem;
+}
+
+.overview-card-3 > p {
+  color: hsl(228, 34%, 66%);
+}
+
+.overview-card-3-bottom > h1 {
+  font-size: 30px;
+ }
+
+ .overview-card-3-bottom p {
+  position: relative;
+  left: 11rem;
+  color: hsl(163, 72%, 41%);
+}
+
+   /* === OVERVIEW CARD 4 */
+
+.overview-card-4 {
+  flex-direction: row;
+  justify-content: flex-start;
+  padding-left: 1.5rem;
+  padding-top: 1rem;
+}
+
+.overview-card-4 > p {
+  color: hsl(228, 34%, 66%);
+}
+
+.overview-card-4-bottom > h1 {
+  font-size: 30px;
+ }
+
+ .overview-card-4-bottom p {
+  position: relative;
+  left: 11rem;
+  color: hsl(163, 72%, 41%);
+}
+
+    /* === OVERVIEW CARD 5 */
+
+.overview-card-5 {
+  flex-direction: row;
+  justify-content: flex-start;
+  padding-left: 1.5rem;
+  padding-top: 1rem;
+}
+
+.overview-card-5 > p {
+  color: hsl(228, 34%, 66%);
+}
+
+.overview-card-5-bottom > h1 {
+  font-size: 30px;
+ }
+
+ .overview-card-5-bottom p {
+  position: relative;
+  left: 11rem;
+  color: hsl(163, 72%, 41%);
+}
+
+     /* === OVERVIEW CARD 6 */
+
+.overview-card-6 {
+  flex-direction: row;
+  justify-content: flex-start;
+  padding-left: 1.5rem;
+  padding-top: 1rem;
+}
+
+.overview-card-6 > p {
+  color: hsl(228, 34%, 66%);
+}
+
+.overview-card-6-bottom > h1 {
+  font-size: 30px;
+ }
+
+ .overview-card-6-bottom p {
+  position: relative;
+  left: 11rem;
+  color: hsl(163, 72%, 41%);
+}
+
+
+      /* === OVERVIEW CARD 7 */
+
+.overview-card-7 {
+  flex-direction: row;
+  justify-content: flex-start;
+  padding-left: 1.5rem;
+  padding-top: 1rem;
+}
+
+.overview-card-7 > p {
+  color: hsl(228, 34%, 66%);
+}
+
+.overview-card-7-bottom > h1 {
+  font-size: 30px;
+ }
+
+ .overview-card-7-bottom p {
+  position: relative;
+  left: 11rem;
+  color: hsl(163, 72%, 41%);
+}
+
+      /* === OVERVIEW CARD 8 */
+
+.overview-card-8 {
+  flex-direction: row;
+  justify-content: flex-start;
+  padding-left: 1.5rem;
+  padding-top: 1rem;
+}
+
+.overview-card-8 > p {
+  color: hsl(228, 34%, 66%);
+}
+
+.overview-card-8-bottom > h1 {
+  font-size: 30px;
+ }
+
+ .overview-card-8-bottom p {
+  position: relative;
+  left: 11rem;
+  color: hsl(163, 72%, 41%);
+}
+
 
 
 
