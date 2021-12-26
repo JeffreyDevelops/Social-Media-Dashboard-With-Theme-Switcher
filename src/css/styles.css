@@ -161,7 +161,7 @@ color: hsl(163, 72%, 41%)!important;
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #ccc;
+    background-image: linear-gradient(90deg, hsl(210, 78%, 56%), hsl(146, 68%, 55%));
     -webkit-transition: .4s;
     transition: .4s;
   }
@@ -171,15 +171,16 @@ color: hsl(163, 72%, 41%)!important;
     content: "";
     height: 20px;
     width: 18px;
-    left: 28px;
+    left: 1px;
     bottom: 2px;
-    background-color: white;
+    background-color: black;
     -webkit-transition: .4s;
     transition: .4s;
   }
   
   input:checked + .slider {
-    background-image: linear-gradient(90deg, hsl(210, 78%, 56%), hsl(146, 68%, 55%));
+    background-image: linear-gradient(90deg, #ccc, #ccc);
+    
 
   }
   
@@ -190,13 +191,14 @@ color: hsl(163, 72%, 41%)!important;
   input:checked + .slider:before {
     -webkit-transform: translateX(26px);
     -ms-transform: translateX(26px);
-    transform: translateX(-26px);
-    background-color: black;
+    transform: translateX(26px);
+    background-color: white;
   }
   
   /* Rounded sliders */
   .slider.round {
     border-radius: 34px;
+    
   }
   
   .slider.round:before {
@@ -443,6 +445,13 @@ color: hsl(163, 72%, 41%)!important;
 
  /* === OVERVIEW CARD 2 */
 
+ .overview-card-bg-2 {
+  background-color: hsl(228, 28%, 20%);
+  width: 100%;
+  height: 8rem;
+  border-radius: .3rem;
+}
+
 .overview-card-2 {
   flex-direction: row;
   justify-content: flex-start;
@@ -476,6 +485,13 @@ color: hsl(163, 72%, 41%)!important;
 
 
   /* === OVERVIEW CARD 3 */
+
+  .overview-card-bg-3 {
+    background-color: hsl(228, 28%, 20%);
+    width: 100%;
+    height: 8rem;
+    border-radius: .3rem;
+  }
 
   .overview-card-3 {
     flex-direction: row;
@@ -515,6 +531,13 @@ color: hsl(163, 72%, 41%)!important;
 
    /* === OVERVIEW CARD 4 */
 
+   .overview-card-bg-4 {
+    background-color: hsl(228, 28%, 20%);
+    width: 100%;
+    height: 8rem;
+    border-radius: .3rem;
+  }
+
    .overview-card-4 {
     flex-direction: row;
     justify-content: flex-start;
@@ -551,6 +574,13 @@ color: hsl(163, 72%, 41%)!important;
     left: 8.9rem;
    }
     /* === OVERVIEW CARD 5 */
+
+    .overview-card-bg-5 {
+      background-color: hsl(228, 28%, 20%);
+      width: 100%;
+      height: 8rem;
+      border-radius: .3rem;
+    }
 
     .overview-card-5 {
       flex-direction: row;
@@ -590,6 +620,13 @@ color: hsl(163, 72%, 41%)!important;
 
      /* === OVERVIEW CARD 6 */
 
+     .overview-card-bg-6 {
+      background-color: hsl(228, 28%, 20%);
+      width: 100%;
+      height: 8rem;
+      border-radius: .3rem;
+    }
+
      .overview-card-6 {
       flex-direction: row;
       justify-content: flex-start;
@@ -628,6 +665,13 @@ color: hsl(163, 72%, 41%)!important;
 
       /* === OVERVIEW CARD 7 */
 
+      .overview-card-bg-7 {
+        background-color: hsl(228, 28%, 20%);
+        width: 100%;
+        height: 8rem;
+        border-radius: .3rem;
+      }
+
       .overview-card-7 {
         flex-direction: row;
         justify-content: flex-start;
@@ -659,6 +703,13 @@ color: hsl(163, 72%, 41%)!important;
        }
 
       /* === OVERVIEW CARD 8 */
+
+      .overview-card-bg-8 {
+        background-color: hsl(228, 28%, 20%);
+        width: 100%;
+        height: 8rem;
+        border-radius: .3rem;
+      }
 
       .overview-card-8 {
         flex-direction: row;
