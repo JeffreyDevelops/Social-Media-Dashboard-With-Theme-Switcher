@@ -382,6 +382,7 @@ color: hsl(163, 72%, 41%)!important;
     justify-content: center;
     position: relative;
     right: 3.7rem;
+    margin-top: 2rem;
   }
 
 
@@ -724,12 +725,12 @@ color: hsl(163, 72%, 41%)!important;
       
       .image-sizing-overview-data-8 {
         position: relative;
-        left: 10.8rem;
+        left: 8.8rem;
        }
     
        .data-8 {
          position: relative;
-         left: 11rem!important;
+         left: 9rem!important;
        }
       
       .overview-card-8-bottom > h1 {
@@ -756,6 +757,8 @@ color: hsl(163, 72%, 41%)!important;
           background-color: hsl(232, 19%, 15%);
           padding-top: unset;
           padding-bottom: unset;
+          width: 100%;
+          height: 18rem;
           border-radius: 0 0 2rem 2rem;
       }
 
@@ -765,12 +768,11 @@ color: hsl(163, 72%, 41%)!important;
 
         #social-header-container {
           display: flex;
-          justify-content: flex-start;
+          justify-content: center;
           position: relative;
-          right: unset;
           top: 2rem;
-          margin-left: 5.5rem;
           font-size: 1.2rem;
+          right: 29rem;
         }
 
         #switcher-container {
@@ -852,7 +854,7 @@ color: hsl(163, 72%, 41%)!important;
         input:checked + .slider:before {
           -webkit-transform: translateX(26px);
           -ms-transform: translateX(26px);
-          transform: translateX(30px);
+          transform: translateX(34px);
           background-color: white;
         }
 
@@ -871,7 +873,7 @@ color: hsl(163, 72%, 41%)!important;
           grid-template-columns: 300px 300px 300px 300px;
           gap: 1rem;
           position: relative;
-          bottom: 3rem;
+          bottom: 8rem;
           justify-content: center;
         }
 
@@ -889,6 +891,32 @@ color: hsl(163, 72%, 41%)!important;
         .card4 {
           position: relative;
           top: 0;
+        }
+
+        #overview {
+          height: 0;
+        }
+        
+
+        #overview-header {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-top: unset;
+          position: relative;
+          bottom: 7rem;
+          right: 31rem;
+          font-size: 1.2rem;
+        }
+
+        #overview-grid {
+          display: grid;
+          grid-template-rows: 130px;
+          grid-template-columns: 300px 300px 300px 300px;
+          gap: 1rem;
+          position: relative;
+          justify-content: center;
+          bottom: 7rem;
         }
       
 
